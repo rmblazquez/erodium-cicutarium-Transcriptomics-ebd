@@ -1,2 +1,4 @@
 # erodium-cicutarium-Transcriptomics-ebd
-This repository contains the scripts and instructions to analyze RNA-seq from published data from Erodium cicutarium 
+This repository contains the scripts and instructions to analyze RNA-seq from published data from *Erodium cicutarium*. 
+
+The scripts and instructions to run the pipeline will be added soon.
