@@ -16,7 +16,7 @@ This script will set the directory structure neede for the analyses, and will do
 
 ### 01_RawReadsQC.sh
 
-This script will perform a quality check analysis of the raw reads. You will need to install **FastQC** and **MultiQC**before running this script.
+This script will perform a quality check analysis of the raw reads. You will need to install **FastQC** and **MultiQC** before running this script.
 
 ### 02_TrimReads.sh
 
