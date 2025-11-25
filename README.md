@@ -4,11 +4,15 @@ Author: Rubén Martín-Blázquez (@rmblazquez)
 
 This repository contains the scripts (bash and R) and instructions to analyze RNA-seq from published data from *Erodium cicutarium*. 
 
+
+
 ## 5-azaC_transcriptome
 
 Contains the scripts necessary to perform the analyses described in "Understanding epigenetic regulation in non-model plants: Transcriptomic responses to seed demethylation in leaves and roots of the annual herb *Erodium cicutarium* (Geraniaceae)".
 
 Start by creating a folder called "src" in your path, and clone or copy the contents of the directory "5-azaC_transcriptome" there. The scripts contain a variable called *projectDir* with the pattern "/path/to/project/directory" that is supposed to include your path, thus they have to be modified replacing this pattern with the actual working directory's path before running them. In order to replicate the analysis, they have to be ran in such numeric order (i. e., start with 00_setDirs.sh, then 01_RawReadsQC.sh, and so on). There are auxiliary files that are not numbered, leave them be as they are, they will be required by some of the scripts.
+
+## DISCLAIMER (25-Nov-2025): this repository is a work in progress!! using these scripts without editing may not generate all results. 
 
 ### 00_setDirs.sh
 
