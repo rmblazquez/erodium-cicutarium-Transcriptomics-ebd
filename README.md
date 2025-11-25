@@ -29,3 +29,35 @@ This script will filter low quality positions, remove adapters, and filter short
 ### 03_GenomePrep.sh
 
 This script will format the genome sequence and genome annotation files for the pipeline. The script uses the auxiliary file *gff2gtf_rtracklayer.R*, which requires **R version >= 3.5.0** in order to be run.
+
+### 04_IndexSTAR.sh
+
+This script will index the *Erodium cicutarium* genome and get it ready to be aligned with **STAR**.
+
+### 05_AlignSTAR.sh
+
+This script will align the paired end reads to the *Erodium cicutarium* genome with **STAR**, and generate alignment reports with **MultiQC**.
+
+### 06_HTSeqCount.sh
+
+This script will summarie the counts found in the alignments of the paired end reads to the *Erodium cicutarium* genome with **htseq-count**.
+
+### 07_runBedtools.sh
+
+This script will generate files needed for the Circos graph of the *Erodium cicutarium* genome with **bedtools**.
+
+### 08_genomeCircos.R
+
+An R script to generate the Circos graph of the *Erodium cicutarium* genome. Contains comments with steps meant to be run in Bash.
+
+### 09_DESeq2_run.R
+
+An R script to analyze the gene differential expression analysis of the RNA-seq experiment with **DESeq2**, and also code to generate figures and stats.
+
+### 11_WGCNA_run.R
+
+An R script to perform weighted gene co-expression network analysis of the RNA-seq experiment with **WGCNA**, and auxiliary code to generate figures and stats.
+
+### 12_topGOrun.R
+
+An R script to perform GO term enrichment analysis of the RNA-seq experiment with **topGO**, instructions to correct the results with **ReViGO**, and auxiliary code to generate figures and stats.
