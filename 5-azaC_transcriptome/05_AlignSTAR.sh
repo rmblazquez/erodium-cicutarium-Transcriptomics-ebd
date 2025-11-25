@@ -6,7 +6,7 @@ projectDir="." #"/path/to/project/directory"
 cd $projectDir
 
 #### ALIGN THE READS TO BIMP REFERENCE GENOME WITH STAR ####
-cat $projectDir/src/basenames.txt | while read line; do
+cat $projectDir/src/SRR_accessions.txt | while read line; do
 mkdir -p $projectDir/results/star/$line.STAR;
 STAR --runThreadN 4 \
   --genomeDir $projectDir/data/genome/STAR-2.4.2a-R64_Ecic_Index \
