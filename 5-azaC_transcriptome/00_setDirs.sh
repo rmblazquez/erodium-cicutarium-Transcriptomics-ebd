@@ -2,7 +2,7 @@
 
 #### SETTING THE PROJECT FILES ####
 # Define the path of the project
-projectDir="/path/to/project/directory"
+projectDir="." #"/path/to/project/directory"
 cd $projectDir
 # Generate all subfolders
 mkdir -p $projectDir/src $projectDir/data/genome $projectDir/data/raw-seq \
