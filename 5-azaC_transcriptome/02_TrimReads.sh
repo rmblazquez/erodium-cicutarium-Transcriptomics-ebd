@@ -2,7 +2,7 @@
 
 #### SETTING THE PATH ####
 # Define the path of the project
-projectDir="/path/to/project/directory"
+projectDir="." #"/path/to/project/directory"
 cd $projectDir
 
 #### FILTER READS AND NUCLEOTIDES BY QUALITY WITH TRIMMOMATIC ####
